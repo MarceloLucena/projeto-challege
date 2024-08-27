@@ -1,0 +1,37 @@
+.form-control{
+    background-color: #C0C0C0;
+    color: #FFD700;
+    border: none;
+    text-align: center;
+}
+.row{
+    background-color:  #C5C5B9;
+}
+.btn{
+    background-color: #14213d;
+    color: #FFD700;
+}
+
+.lupa{
+    background-color: none;
+}
+.logo{
+    background-color: #C5C5B9;
+}
+#corpo{
+    background-color:#C5C5B9;
+}
+.rodape{
+    background-color: #C5C5B9;
+    text-align: center;
+    gap: 510;
+}
+
+body{
+    background-color: #C5C5B9;
+}
+.resultado{
+    background-color:#C0C0C0;
+    border: none;
+    text-align: center;
+}

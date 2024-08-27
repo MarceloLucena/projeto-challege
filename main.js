@@ -31,16 +31,9 @@ function copiarTexto() {
 }
 
 const textarea = document.querySelector('textarea');
-
-
-textarea.addEventListener('input', function() {
-    
-    let texto = textarea.value;
-
-    
-    texto = texto.toLowerCase().replace(/[^\w\s]/gi, '');
-
-    
+textarea.addEventListener('input', function() {    
+    let texto = textarea.value;    
+    texto = texto.toLowerCase().replace(/[^\w\s]/gi, '');    
     textarea.value = texto;
 });
 
